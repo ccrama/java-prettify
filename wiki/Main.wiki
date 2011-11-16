@@ -1,5 +1,7 @@
 #summary Provide general information about the Java Prettify
 
+=Java Prettify=
+
 <wiki:toc max_depth="3" />
 
 ==Overview==
