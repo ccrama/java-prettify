@@ -12,7 +12,7 @@ Java SE 6 or up
 ==Language Supported==
 The comments in [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/Prettify.html prettify.Prettify] are authoritative but the lexer should work on a number of languages including C and friends, Java, Python, Bash, SQL, HTML, XML, CSS, Javascript, and Makefiles. It works passably on Ruby, PHP, VB, and Awk and a decent subset of Perl and Ruby, but, because of commenting conventions, doesn't work on Smalltalk, or CAML-like languages.
 
-LISPy languages are supported via an extension: [http://code.google.com/p/java-prettify/source/browse/trunk/src/prettify/lang/LangLisp.java prettify.lang.LangLisp].
+LISPy languages are supported via an extension: [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/lang/LangLisp.html prettify.lang.LangLisp].
 
 And similarly for Clojure, CSS, Go, Haskell, Lua, OCAML, SML, F#, Nemerle, Protocol Buffers, Scala, SQL, TeX, LaTeX, VHDL, Visual Basic, WikiText, XQuery, and YAML.
 
