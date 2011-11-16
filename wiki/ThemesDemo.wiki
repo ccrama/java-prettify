@@ -2,6 +2,8 @@
 
 =Themes Demo=
 
+<wiki:toc max_depth="3" />
+
 ==Default theme==
 http://java-prettify.googlecode.com/svn/wiki/ThemesDemo/ThemeDefault.png<br />
 

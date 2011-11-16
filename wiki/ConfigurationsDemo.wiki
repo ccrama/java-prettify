@@ -2,6 +2,8 @@
 
 =Configurations Demo=
 
+<wiki:toc max_depth="3" />
+
 ===1. Change the first (starting) line number.===
 http://java-prettify.googlecode.com/svn/wiki/ConfigurationsDemo/FirstLine.png<br />
 
