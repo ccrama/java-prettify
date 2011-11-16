@@ -1,0 +1,74 @@
+#summary Provide general information about the Java Prettify
+
+==Overview==
+This is a syntax highlighter written in Java ([http://java-prettify.googlecode.com/svn/trunk/javadoc/index.html JavaDoc]). It is ported from JavaScript [http://code.google.com/p/google-code-prettify/ Prettify], the current version ported is 1-Jun-2011. If you need an editor more than a highlighter, please find jsyntaxpane.
+
+==Alternatives==
+[http://code.google.com/p/java-syntax-highlighter/ Java SyntaxHighlighter]
+
+==Requirement==
+Java SE 6 or up
+
+==Language Supported==
+The comments in [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/Prettify.html prettify.Prettify] are authoritative but the lexer should work on a number of languages including C and friends, Java, Python, Bash, SQL, HTML, XML, CSS, Javascript, and Makefiles. It works passably on Ruby, PHP, VB, and Awk and a decent subset of Perl and Ruby, but, because of commenting conventions, doesn't work on Smalltalk, or CAML-like languages.
+
+LISPy languages are supported via an extension: [http://code.google.com/p/java-prettify/source/browse/trunk/src/prettify/lang/LangLisp.java prettify.lang.LangLisp].
+
+And similarly for Clojure, CSS, Go, Haskell, Lua, OCAML, SML, F#, Nemerle, Protocol Buffers, Scala, SQL, TeX, LaTeX, VHDL, Visual Basic, WikiText, XQuery, and YAML.
+
+If you'd like to add an extension for your favorite language, please look at [http://code.google.com/p/java-prettify/source/browse/trunk/src/prettify/lang/LangLisp.java prettify.lang.LangLisp] and file an [http://code.google.com/p/google-code-prettify/issues/list issue] including your language extension, and a testcase.
+
+Adapted from: http://google-code-prettify.googlecode.com/svn/trunk/README.html
+
+==Themes==
+Default, Desert, Sons of Obsidian, Sunburst
+
+[http://code.google.com/p/java-prettify/wiki/ThemesDemo Click here to visit the gallery.]
+
+==Configurations==
+ * Allows you to change the first (starting) line number.
+ * Allows you to turn gutter with line numbers on and off.
+ * Allows you to highlight one or more lines to focus user's attention.
+[http://code.google.com/p/java-prettify/wiki/ConfigurationsDemo Click here for a demo.]
+
+==Example==
+<b><font color=red>Note that this highlighter extends Swing component, so all operations are better be executed inside [http://en.wikipedia.org/wiki/Event_dispatching_thread Swing dispatching thread].</font></b>
+{{{
+import java.io.*;
+import java.util.Arrays;
+import java.util.logging.*;
+import javax.swing.*;
+import prettify.theme.ThemeDefault;
+
+public class Example {
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+
+            @Override
+            public void run() {
+                try {
+                    SyntaxHighlighter highlighter = new SyntaxHighlighter(new ThemeDefault());
+                    highlighter.setContent(new File("src/prettify/example/example.html"));
+                    highlighter.setFirstLine(10);
+                    highlighter.setHighlightedLineList(Arrays.asList(10, 13));
+
+                    JFrame frame = new JFrame();
+                    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                    frame.setContentPane(highlighter);
+                    frame.pack();
+                    frame.setLocationByPlatform(true);
+                    frame.setVisible(true);
+                } catch (Exception ex) {
+                    Logger.getLogger(Example.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        });
+    }
+}
+}}}
+
+==Known Issues==
+ * Perl formatting is really crappy. Partly because Perl is [http://www.perlmonks.org/?node_id=663393 hard] to parse.
+
+Adapted from: http://google-code-prettify.googlecode.com/svn/trunk/CHANGES.html
