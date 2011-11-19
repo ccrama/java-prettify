@@ -1,5 +1,5 @@
   * [Overview Overview]
   * [ThemesDemo Themes Demo]
   * [ConfigurationsDemo Configurations Demo]
-  * [CreateNewBrush Create New Brush]
+  * [CreateNewLanguage Create New Language]
   * [CreateNewTheme Create New Theme]
