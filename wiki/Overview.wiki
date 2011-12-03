@@ -3,7 +3,7 @@
 <wiki:toc max_depth="3" />
 
 ==Overview==
-This is a syntax highlighter written in Java ([http://java-prettify.googlecode.com/svn/trunk/javadoc/index.html JavaDoc]). It is ported from JavaScript [http://code.google.com/p/google-code-prettify/ Prettify], the current version ported is 1-Jun-2011. If you need an editor more than a highlighter, please find [http://code.google.com/p/jsyntaxpane/ jsyntaxpane]. You may wonder why I will port this to Java, it is because I need it for [http://code.google.com/p/language-files-tool/ Language Files Tool].
+This is a syntax highlighter written in Java ([http://java-prettify.googlecode.com/svn/tags/1.0.0/javadoc/index.html JavaDoc]). It is ported from JavaScript [http://code.google.com/p/google-code-prettify/ Prettify], the current version ported is 1-Jun-2011. If you need an editor more than a highlighter, please find [http://code.google.com/p/jsyntaxpane/ jsyntaxpane]. You may wonder why I will port this to Java, it is because I need it for [http://code.google.com/p/language-files-tool/ Language Files Tool].
 
 ==Alternatives==
 [http://code.google.com/p/java-syntax-highlighter/ Java SyntaxHighlighter]
