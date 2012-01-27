@@ -4,7 +4,7 @@
 
 ==Overview==
 This library is a java port of [http://google-code-prettify.googlecode.com Google Prettify], the current version ported is 1-Jun-2011. The copyright holder of the 
-Google Prettify is [mikesamuel@gmail.com Mike Samuel]. It is licensed under the [http://www.opensource.org/licenses/Apache-2.0 Apache license Version 2]. This port is written by [cws1989@gmail.com Chan Wai Shing] distributed under 
+Google Prettify is Mike Samuel (mikesamuel@gmail.com). It is licensed under the [http://www.opensource.org/licenses/Apache-2.0 Apache license Version 2]. This port is written by Chan Wai Shing (cws1989@gmail.com) distributed under 
 [http://www.opensource.org/licenses/Apache-2.0 Apache license Version 2].
 
  * If you need an editor more than a highlighter, please find [http://code.google.com/p/jsyntaxpane/ jsyntaxpane].
