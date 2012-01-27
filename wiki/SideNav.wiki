@@ -3,3 +3,4 @@
   * [ConfigurationsDemo Configurations Demo]
   * [CreateNewLanguage Create New Language]
   * [CreateNewTheme Create New Theme]
+  * [UseTheParserAlone Use the Parser]

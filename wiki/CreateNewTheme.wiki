@@ -1,4 +1,3 @@
-#summary Guides to create a new theme.
+=Create New Theme=
 
-===How to create a new theme?===
-All the themes that come with the release are placed under [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/theme/package-summary.html prettify.theme] package. All themes should extends the [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/Theme.html prettify.Theme] class. You can take a look at [http://code.google.com/p/java-prettify/source/browse/trunk/src/prettify/theme/ThemeDefault.java syntaxhighlighter.theme.ThemeDefault] to see what should be done to make a new theme.
+All the themes that come with the release are placed under [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/theme/package-summary.html prettify.theme] package. All themes should extends the [http://java-prettify.googlecode.com/svn/trunk/javadoc/syntaxhighlight/Theme.html syntaxhighlight.Theme] class. You can take a look at [http://code.google.com/p/java-prettify/source/browse/trunk/src/prettify/theme/ThemeDefault.java prettify.theme.ThemeDefault] to see what should be done to make a new theme.

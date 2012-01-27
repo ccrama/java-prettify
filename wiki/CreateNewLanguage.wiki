@@ -1,6 +1,5 @@
-#summary Guides to create a new language.
+=Create New Language=
 
-===How to create a new language?===
-All the languages that come with the release are placed under [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/lang/package-summary.html prettify.lang] package. All languages should extends the [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/Lang.html prettify.Lang] class. You can take a look at [http://code.google.com/p/java-prettify/source/browse/trunk/src/prettify/lang/LangLisp.java prettify.lang.LangLisp] to see what should be done to make a new brush.
+All the languages that come with the release are placed under [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/lang/package-summary.html prettify.lang] package. All languages should extends the [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/lang/Lang.html prettify.lang.Lang] class. You can take a look at [http://code.google.com/p/java-prettify/source/browse/trunk/src/prettify/lang/LangLisp.java prettify.lang.LangLisp] to see what should be done to make a new brush.
 
-You can also submit the request as an issue to http://code.google.com/p/google-code-prettify/issues/list.
+You can also submit the request as an issue to [http://code.google.com/p/google-code-prettify/issues/list].

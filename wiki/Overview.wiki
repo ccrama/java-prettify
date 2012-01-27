@@ -3,7 +3,12 @@
 <wiki:toc max_depth="3" />
 
 ==Overview==
-This is a syntax highlighter written in Java ([http://java-prettify.googlecode.com/svn/tags/1.1.0/javadoc/index.html JavaDoc]). It is ported from JavaScript [http://code.google.com/p/google-code-prettify/ Prettify], the current version ported is 1-Jun-2011. If you need an editor more than a highlighter, please find [http://code.google.com/p/jsyntaxpane/ jsyntaxpane]. You may wonder why I will port this to Java, it is because I need it for [http://code.google.com/p/language-files-tool/ Language Files Tool].
+This library is a java port of [http://google-code-prettify.googlecode.com Google Prettify], the current version ported is 1-Jun-2011. The copyright holder of the 
+Google Prettify is [mikesamuel@gmail.com Mike Samuel]. It is licensed under the [http://www.opensource.org/licenses/Apache-2.0 Apache license Version 2]. This port is written by [cws1989@gmail.com Chan Wai Shing] distributed under 
+[http://www.opensource.org/licenses/Apache-2.0 Apache license Version 2].
+
+ * If you need an editor more than a highlighter, please find [http://code.google.com/p/jsyntaxpane/ jsyntaxpane].
+ * I port it for [http://code.google.com/p/language-files-tool/ Language Files Tool].
 
 ==Alternatives==
 [http://code.google.com/p/java-syntax-highlighter/ Java SyntaxHighlighter]
@@ -12,7 +17,7 @@ This is a syntax highlighter written in Java ([http://java-prettify.googlecode.c
 Java SE 6 or up
 
 ==Language Supported==
-The comments in [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/Prettify.html prettify.Prettify] are authoritative but the lexer should work on a number of languages including C and friends, Java, Python, Bash, SQL, HTML, XML, CSS, Javascript, and Makefiles. It works passably on Ruby, PHP, VB, and Awk and a decent subset of Perl and Ruby, but, because of commenting conventions, doesn't work on Smalltalk, or CAML-like languages.
+The comments in [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/parser/Prettify.html prettify.parser.Prettify] are authoritative but the lexer should work on a number of languages including C and friends, Java, Python, Bash, SQL, HTML, XML, CSS, Javascript, and Makefiles. It works passably on Ruby, PHP, VB, and Awk and a decent subset of Perl and Ruby, but, because of commenting conventions, doesn't work on Smalltalk, or CAML-like languages.
 
 LISPy languages are supported via an extension: [http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/lang/LangLisp.html prettify.lang.LangLisp].
 
@@ -20,18 +25,19 @@ And similarly for Clojure, CSS, Go, Haskell, Lua, OCAML, SML, F#, Nemerle, Proto
 
 If you'd like to add an extension for your favorite language, please look at [http://code.google.com/p/java-prettify/source/browse/trunk/src/prettify/lang/LangLisp.java prettify.lang.LangLisp] and file an [http://code.google.com/p/google-code-prettify/issues/list issue] including your language extension, and a testcase.
 
-Adapted from: http://google-code-prettify.googlecode.com/svn/trunk/README.html
+Adapted from: [http://google-code-prettify.googlecode.com/svn/trunk/README.html]
 
 ==Themes==
 Default, Desert, Sons of Obsidian, Sunburst
 
-[http://code.google.com/p/java-prettify/wiki/ThemesDemo Click here to visit the gallery.]
+[ThemesDemo Click here to visit the gallery.]
 
 ==Configurations==
  * Allows you to change the first (starting) line number.
  * Allows you to turn gutter with line numbers on and off.
  * Allows you to highlight one or more lines to focus user's attention.
-[http://code.google.com/p/java-prettify/wiki/ConfigurationsDemo Click here for a demo.]
+
+[ConfigurationsDemo Click here for a demo.]
 
 ==Example==
 <b><font color=red>Note that this highlighter extends Swing component, so all operations are better be executed inside [http://en.wikipedia.org/wiki/Event_dispatching_thread Swing dispatching thread].</font></b>
@@ -78,8 +84,8 @@ public class Example {
 }
 }}}
 
-==Screenshot==
-http://java-prettify.googlecode.com/svn/wiki/ThemesDemo/ThemeDesert.png
+==Sample Screenshot==
+[http://java-prettify.googlecode.com/svn/wiki/ThemesDemo/ThemeDesert.png]
 
 ==Support & Discussion==
 [http://groups.google.com/group/java-prettify Support & Discussion Group]
