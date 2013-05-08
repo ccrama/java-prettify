@@ -1,0 +1,3 @@
+if(!/^https?:\/\//i.test(val) && foo == 'bar') {
+    val = 'http://' + val;
+}
