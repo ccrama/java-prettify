@@ -1,0 +1,3 @@
+# Create New Theme #
+
+All the themes that come with the release are placed under [prettify.theme](http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/theme/package-summary.html) package. All themes should extends the [syntaxhighlight.Theme](http://java-prettify.googlecode.com/svn/trunk/javadoc/syntaxhighlight/Theme.html) class. You can take a look at [prettify.theme.ThemeDefault](http://code.google.com/p/java-prettify/source/browse/trunk/src/prettify/theme/ThemeDefault.java) to see what should be done to make a new theme.

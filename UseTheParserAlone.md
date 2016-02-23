@@ -1,0 +1,5 @@
+# Use the Parser Alone #
+
+Besides using this library with GUI, you can use only the parser without GUI. The class [prettify.parser.Prettify](http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/PrettifyParser.html) has implemented the [Parser](http://java-prettify.googlecode.com/svn/trunk/javadoc/syntaxhighlight/Parser.html) interface. You can initiate the class and then invoke the [Parser#parse(String, String)](http://java-prettify.googlecode.com/svn/trunk/javadoc/syntaxhighlight/Parser.html#parse%28java.lang.String,%20java.lang.String%29) to parse the content. See also the [ParseResult](http://java-prettify.googlecode.com/svn/trunk/javadoc/syntaxhighlight/ParseResult.html) to know how to use the parsed results.
+
+For more details, you can have a look to [prettify.parser.Prettify#parse(...)](http://java-prettify.googlecode.com/svn/trunk/javadoc/prettify/parser/Prettify.html).
